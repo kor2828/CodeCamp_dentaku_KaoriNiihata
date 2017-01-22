@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		912BCAF61E2B56A7002CF046 /* Calc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912BCAF51E2B56A7002CF046 /* Calc.swift */; };
 		91E1DE411E2A785F0067CF95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E1DE401E2A785F0067CF95 /* AppDelegate.swift */; };
 		91E1DE431E2A785F0067CF95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E1DE421E2A785F0067CF95 /* ViewController.swift */; };
 		91E1DE461E2A785F0067CF95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E1DE441E2A785F0067CF95 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		912BCAF51E2B56A7002CF046 /* Calc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calc.swift; sourceTree = "<group>"; };
 		91E1DE3D1E2A785F0067CF95 /* dentaku_2016.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dentaku_2016.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91E1DE401E2A785F0067CF95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91E1DE421E2A785F0067CF95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				91E1DE401E2A785F0067CF95 /* AppDelegate.swift */,
 				91E1DE421E2A785F0067CF95 /* ViewController.swift */,
+				912BCAF51E2B56A7002CF046 /* Calc.swift */,
 				91E1DE441E2A785F0067CF95 /* Main.storyboard */,
 				91E1DE4A1E2A785F0067CF95 /* Assets.xcassets */,
 				91E1DE4C1E2A785F0067CF95 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				912BCAF61E2B56A7002CF046 /* Calc.swift in Sources */,
 				91E1DE491E2A785F0067CF95 /* dentaku_2016.xcdatamodeld in Sources */,
 				91E1DE431E2A785F0067CF95 /* ViewController.swift in Sources */,
 				91E1DE411E2A785F0067CF95 /* AppDelegate.swift in Sources */,
@@ -507,6 +511,7 @@
 				91E1DE6A1E2A785F0067CF95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91E1DE6B1E2A785F0067CF95 /* Build configuration list for PBXNativeTarget "dentaku_2016Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				91E1DE6D1E2A785F0067CF95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91E1DE6E1E2A785F0067CF95 /* Build configuration list for PBXNativeTarget "dentaku_2016UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				91E1DE701E2A785F0067CF95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
